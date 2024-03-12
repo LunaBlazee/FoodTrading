@@ -1,0 +1,7 @@
+Bug1:
+
+The typo in the import statement `BannerImage` caused a reference error when using it in the img tag as `Bannerimage`. By correcting the import statement to match the actual filename (BannerImage), the bug is fixed, and the image will be displayed correctly.
+
+Bug2:
+
+The typo in the import statement caused the JavaScript runtime to be unable to find the image file, resulting in a broken image link when rendering the component. By correcting the import statement to match the actual file name, the issue is resolved, and the image will be displayed correctly.
